@@ -14,12 +14,17 @@
 2. Прописать имя домена и указать папку домена до директории \public в httpd.conf
 
 >    Пример: 
+
 >    <VirtualHost *:80>
 >    
 >    DocumentRoot    "w:/domains/comments.loc/public"
+
 >    ServerName      "comments.loc"
+
 >    ServerAlias     "comments.loc" 
+
 >    ScriptAlias     /cgi-bin/ "w:/domains/comments.loc/public/cgi-bin/"
+
 >   
 >    </VirtualHost>
 
