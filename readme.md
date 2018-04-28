@@ -15,12 +15,16 @@
 
 >    Пример: 
 >    <VirtualHost *:80>
+
 >    DocumentRoot    "w:/domains/comments.loc/public"
+
 >    ServerName      "comments.loc"
+
 >    ServerAlias     "comments.loc" 
+
 >    ScriptAlias     /cgi-bin/ "w:/domains/comments.loc/public/cgi-bin/"
 >    </VirtualHost>
-  
+ 
 
 ## Копирование и настройка базы данных
 
