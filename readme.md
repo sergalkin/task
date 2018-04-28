@@ -22,8 +22,8 @@
 
 >    ServerAlias     "comments.loc" 
 
->    ScriptAlias     /cgi-bin/ "w:/domains/comments.loc/public/cgi-bin/"
->    </VirtualHost>
+>    ScriptAlias     /cgi-bin/ "w:/domains/comments.loc/public/cgi-bin/" </VirtualHost>
+>    
  
 
 ## Копирование и настройка базы данных
