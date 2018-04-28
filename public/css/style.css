@@ -42,7 +42,7 @@ a, a:hover {
 }
 
 .container {
-    width: 83%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -88,7 +88,9 @@ a, a:hover {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
+#comments-container {
+    font: 16px/18px 'Times New Roman', Times, sans-serif;
+}
 .comments-block {
     display: block;
     margin-top: 10px;
@@ -130,6 +132,7 @@ hr {
 }
 
 #form .container p {
+    font: 16px/18px 'Times New Roman', Times, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -149,7 +152,7 @@ input[type=text]:focus {
 }
 
 .area {
-    width: 32.1%;
+    width: 35%;
 }
 
 .area textarea {
