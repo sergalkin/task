@@ -16,6 +16,7 @@ class CommentsController extends Controller
 
     public function store(Request $request)
     {
+
         $this->validate($request, [
             'user_name' => 'required|max:255',
             'user_comment' => 'required'
@@ -30,6 +31,6 @@ class CommentsController extends Controller
         $comment = new Comment();
         $comment->fill($data);
         $comment->save();
-        return redirect('/comments');
+        return redirect()->action('CommentsController@index');
     }
 }
